@@ -5,7 +5,7 @@
 
   export default defineConfig({
     plugins: [react()],
-    base: 'main',
+    base: 'child-rules-tracker',
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
